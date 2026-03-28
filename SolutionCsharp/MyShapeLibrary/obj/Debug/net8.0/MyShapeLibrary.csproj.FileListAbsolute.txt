@@ -1,0 +1,11 @@
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\bin\Debug\net8.0\MyShapeLibrary.deps.json
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\bin\Debug\net8.0\MyShapeLibrary.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\bin\Debug\net8.0\MyShapeLibrary.pdb
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.AssemblyInfoInputs.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.AssemblyInfo.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\refint\MyShapeLibrary.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\MyShapeLibrary.pdb
+C:\Users\Issam\Desktop\hepl\B2\C#\SolutionCsharp\MyShapeLibrary\obj\Debug\net8.0\ref\MyShapeLibrary.dll
