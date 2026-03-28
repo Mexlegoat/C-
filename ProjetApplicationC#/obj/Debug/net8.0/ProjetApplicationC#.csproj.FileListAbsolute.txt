@@ -1,0 +1,14 @@
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\bin\Debug\net8.0\ProjetApplicationC#.exe
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\bin\Debug\net8.0\ProjetApplicationC#.deps.json
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\bin\Debug\net8.0\ProjetApplicationC#.runtimeconfig.json
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\bin\Debug\net8.0\ProjetApplicationC#.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\bin\Debug\net8.0\ProjetApplicationC#.pdb
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.AssemblyInfoInputs.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.AssemblyInfo.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.csproj.CoreCompileInputs.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\refint\ProjetApplicationC#.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.pdb
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ProjetApplicationC#.genruntimeconfig.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\ProjetApplicationC#\obj\Debug\net8.0\ref\ProjetApplicationC#.dll
