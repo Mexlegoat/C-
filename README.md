@@ -5,7 +5,7 @@
 ### - ~~Creation des applications~~ - Réussi
 ### - ~~Affichage de l'image des applications~~ - Réussi
 ### - ~~Ajouter les applications dans les listes~~ - Réussi
-### - Mettre une page avant de voir le mainwindow
+### - Mettre une page de login avant de voir le mainwindow
 ### - Créer l'interface graphique des paramètres
 ### - LE truc de registry.
 ### - Execution des applications (partiellement réussi)
