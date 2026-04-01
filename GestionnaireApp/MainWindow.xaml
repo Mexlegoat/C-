@@ -9,6 +9,7 @@
 
     <Window.Resources>
         <local:IconConverter x:Key="IconConverter"/>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
     </Window.Resources>
 
     <Grid>
@@ -17,11 +18,12 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <!-- Barre de recherche -->
         <TextBox Grid.Row="0" Margin="10" Height="30" VerticalAlignment="Center"/>
-
+        
         <!-- Listes -->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -35,13 +37,18 @@
             <!-- Jeux -->
             <StackPanel Grid.Column="0">
                 <TextBlock Text="Jeux" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox x:Name="ListJeu" ItemsSource="{Binding ItemsJeu}" MouseDoubleClick="LaunchApp">
+                <ListBox x:Name="ListJeu" ItemsSource="{Binding ItemsJeu}" SelectionChanged="List_SelectionChanged" MouseDoubleClick="LaunchApp">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Margin="2">
                                 <Image Width="32" Height="32" Margin="0,0,5,0"
                                        Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
                                 <TextBlock Text="{Binding Nom}" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Genre, StringFormat='Type: {0}'}" 
+                                            FontSize="10" Foreground="Gray" Margin="37,0,0,0"
+                                            Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, 
+                                            RelativeSource={RelativeSource AncestorType=Window}, 
+                                            Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
@@ -54,13 +61,18 @@
             <!-- Travail -->
             <StackPanel Grid.Column="2">
                 <TextBlock Text="Travail" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox x:Name="ListTravail" ItemsSource="{Binding ItemsTravail}" MouseDoubleClick="LaunchApp">
+                <ListBox x:Name="ListTravail" ItemsSource="{Binding ItemsTravail}" SelectionChanged="List_SelectionChanged" MouseDoubleClick="LaunchApp">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Margin="2">
                                 <Image Width="32" Height="32" Margin="0,0,5,0"
                                        Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
                                 <TextBlock Text="{Binding Nom}" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Langage, StringFormat='Type: {0}'}" 
+                                            FontSize="10" Foreground="Gray" Margin="37,0,0,0"
+                                            Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, 
+                                            RelativeSource={RelativeSource AncestorType=Window}, 
+                                            Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
@@ -73,13 +85,19 @@
             <!-- Multimédia -->
             <StackPanel Grid.Column="4">
                 <TextBlock Text="Multimédia" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox x:Name="ListMm" ItemsSource="{Binding ItemsMm}" MouseDoubleClick="LaunchApp">
+                <ListBox x:Name="ListMm" ItemsSource="{Binding ItemsMm}" SelectionChanged="List_SelectionChanged" MouseDoubleClick="LaunchApp">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Margin="2">
                                 <Image Width="32" Height="32" Margin="0,0,5,0"
                                        Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
                                 <TextBlock Text="{Binding Nom}" VerticalAlignment="Center"/>
+
+                                <TextBlock Text="{Binding Genre, StringFormat='Type: {0}'}" 
+                                            FontSize="10" Foreground="Gray" Margin="37,0,0,0"
+                                            Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, 
+                                            RelativeSource={RelativeSource AncestorType=Window}, 
+                                            Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
@@ -92,9 +110,29 @@
 
         <!-- Paramètres -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left">
-            <Button Width="40" Height="40" Margin="10">
-                <TextBlock Text="⚙️" FontSize="16"/>
+            <Button Width="auto" Height="30" Margin="10" Click="Ouvrir_Param">
+                <TextBlock Text="Paramètres" FontSize="16"/>
             </Button>
         </StackPanel>
+        <Button Grid.Row="3" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Margin="0,0,10,0" Click="Ajouter_Type"/>
+        <DataGrid x:Name="AppDataGrid" 
+          ItemsSource="{Binding AllItems}" 
+          AutoGenerateColumns="False" 
+          Grid.Row="4" 
+          Margin="10" 
+          Height="150">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="40"/>
+                <DataGridTextColumn Header="Nom" Binding="{Binding Nom}" Width="*"/>
+
+                <DataGridTextColumn Header="Date d'ajout" 
+                            Binding="{Binding DateAjoute, StringFormat=\{0:dd/MM/yyyy HH:mm:ss\}}" 
+                            Width="140" 
+                            IsReadOnly="True"/>
+
+                <DataGridTextColumn Header="Type" Binding="{Binding CustomType.Type}" Width="*"/>
+                <DataGridTextColumn Header="Chemin" Binding="{Binding Chemin}" Width="2*"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

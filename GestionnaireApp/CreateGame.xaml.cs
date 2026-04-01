@@ -43,7 +43,6 @@ namespace GestionnaireApp
         private void Confirmer_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrEmpty(NomTextBox.Text) ||
-                string.IsNullOrEmpty(ExePathTextBox.Text) ||
                 string.IsNullOrEmpty(GenreTextBox.Text))
             {
                 MessageBox.Show("Veuillez remplir tous les champs !");
@@ -53,6 +52,29 @@ namespace GestionnaireApp
             NomApp = NomTextBox.Text;
             CheminApp = ExePathTextBox.Text;
             GenreApp = GenreTextBox.Text;
+            bool isLaunchable;
+
+            if (IsLaunchableCheckBox.IsChecked == true)
+            {
+                isLaunchable = true;
+            }
+            else
+            {
+                isLaunchable = false;
+            }
+            if (isLaunchable)
+            {
+                if (string.IsNullOrWhiteSpace(ExePathTextBox.Text))
+                {
+                    MessageBox.Show("Veuillez sélectionner un fichier (.exe ou .lnk) !", "Chemin manquant", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+                CheminApp = ExePathTextBox.Text;
+            }
+            else
+            {
+                CheminApp = string.Empty;
+            }
 
             this.DialogResult = true;
             this.Close();
@@ -60,6 +82,7 @@ namespace GestionnaireApp
 
         private void Annuler_Click(object sender, RoutedEventArgs e)
         {
+            this.DialogResult = false;
             this.Close();
         }
     }

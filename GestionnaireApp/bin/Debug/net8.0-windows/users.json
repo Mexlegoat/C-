@@ -1,0 +1,48 @@
+[
+  {
+    "Username": "ADMIN",
+    "Password": "ADMIN123",
+    "Categories": [
+      {
+        "Nom": "Jeux",
+        "Items": [
+          {
+            "$type": "jeu",
+            "Genre": "Jeu",
+            "Id": 1,
+            "Nom": "Jeu",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-01T23:40:04.563305+02:00"
+          }
+        ]
+      },
+      {
+        "Nom": "Travail",
+        "Items": [
+          {
+            "$type": "travail",
+            "Langage": "Travail",
+            "Id": 2,
+            "Nom": "Travail",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-01T23:40:11.8185835+02:00"
+          }
+        ]
+      },
+      {
+        "Nom": "Multimedia",
+        "Items": []
+      }
+    ],
+    "UserCreatedTypes": [],
+    "Preferences": {
+      "IsDarkMode": false,
+      "ShowType": false,
+      "ShowGenre": false,
+      "DoubleClickToExecute": true,
+      "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\"
+    }
+  }
+]

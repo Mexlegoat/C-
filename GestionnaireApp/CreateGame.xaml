@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:GestionnaireApp"
         mc:Ignorable="d"
         Title="Créer une application de jeu" Height="450" Width="800" Background="DarkGray">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
@@ -20,12 +23,21 @@
         <TextBox x:Name="NomTextBox" Grid.Row="1" Margin="10,5,0,0" Height="30" Width="300" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBlock Grid.Row="2" Text="Genre:" FontSize="12" Margin="10,23,0,9" Width="34" HorizontalAlignment="Left"/>
         <TextBox x:Name="GenreTextBox" Grid.Row="3" Margin="10,5,0,0" Height="30" Width="300" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Grid.Row="4" Text="Ajouter une application:" FontSize="12" Margin="10,23,0,0" Width="126" Height="21" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
-        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="10,5,0,0">
+        <CheckBox x:Name="IsLaunchableCheckBox" 
+              Content="Le jeu peut etre lancé?" 
+              Grid.Row="4" 
+              Margin="10,0,0,0" 
+              VerticalAlignment="Top" 
+              IsChecked="False"/>
+        <TextBlock Grid.Row="4" Text="Ajouter une application:" FontSize="12" Margin="10,23,0,0" Width="126" Height="21" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+           Visibility="{Binding IsChecked, ElementName=IsLaunchableCheckBox, Converter={StaticResource BoolToVis}}"/>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="10,5,0,0" Visibility="{Binding IsChecked, ElementName=IsLaunchableCheckBox, Converter={StaticResource BoolToVis}}">
+
             <TextBox x:Name="ExePathTextBox" Width="400" Height="30" IsReadOnly="True" Margin="0,0,10,0" VerticalAlignment="Top"/>
             <Button x:Name="BrowseButton" Content="Parcourir" Width="100" Height="30" Click="BrowseExe_Click" VerticalAlignment="Top"/>
         </StackPanel>
-        <TextBlock Grid.Row="5"  Text="Applications possible: (.exe, .lnk)" Width="200" Height="20" HorizontalAlignment="Left" Margin="10,-20,0,0" FontWeight="Light"/>
+        <TextBlock Grid.Row="5"  Text="Applications possible: (.exe, .lnk)" Width="200" Height="20" HorizontalAlignment="Left" Margin="10,-20,0,0" FontWeight="Light"
+                   Visibility="{Binding IsChecked, ElementName=IsLaunchableCheckBox, Converter={StaticResource BoolToVis}}"/>
         <Button x:Name="ConfirmButton" Grid.Row="6" Content="Confirmer" Width="80" HorizontalAlignment="Left" Margin="710,9,0,8" Background="Green" Click="Confirmer_Click"/>
         <Button x:Name="CancelButton" Grid.Row="6" Content="Annuler" Width="80" HorizontalAlignment="Left" Margin="608,9,0,8" Click="Annuler_Click"/>
     </Grid>

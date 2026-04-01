@@ -40,3 +40,13 @@ C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\Gesti
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\GestionnaireApp.genruntimeconfig.cache
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\ref\GestionnaireApp.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\GestionnaireApp.sourcelink.json
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\CreateType.g.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\CreateType.baml
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\bin\Debug\net8.0-windows\Services.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\bin\Debug\net8.0-windows\Services.pdb
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\Page2.baml
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\Page2.g.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\Startup.baml
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\Startup.g.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\SettingsWindow.g.cs
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\SettingsWindow.baml

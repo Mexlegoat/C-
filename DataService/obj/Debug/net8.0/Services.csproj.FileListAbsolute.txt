@@ -13,3 +13,4 @@ C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\refint\Services.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.pdb
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\ref\Services.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.sourcelink.json

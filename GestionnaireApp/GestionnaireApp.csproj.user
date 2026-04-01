@@ -14,5 +14,14 @@
     <Compile Update="LoginUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Page2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Startup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

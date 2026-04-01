@@ -1400,6 +1400,19 @@
         "runtime": {
           "bin/placeholder/Modeles.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Modeles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -4837,11 +4850,17 @@
       "type": "project",
       "path": "../ItemClass/Modeles.csproj",
       "msbuildProject": "../ItemClass/Modeles.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../DataService/Services.csproj",
+      "msbuildProject": "../DataService/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Modeles >= 1.0.0",
+      "Services >= 1.0.0",
       "System.Drawing.Common >= 10.0.5"
     ]
   },
@@ -4877,6 +4896,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\Services.csproj": {
+              "projectPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\Services.csproj"
+            },
             "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\Modeles.csproj": {
               "projectPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\Modeles.csproj"
             }

@@ -9,6 +9,7 @@
       "GestionnaireApp/1.0.0": {
         "dependencies": {
           "Modeles": "1.0.0",
+          "Services": "1.0.0",
           "System.Drawing.Common": "10.0.5"
         },
         "runtime": {
@@ -762,6 +763,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "Modeles": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1318,6 +1330,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "Modeles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

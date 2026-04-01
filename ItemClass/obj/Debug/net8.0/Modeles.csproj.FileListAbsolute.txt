@@ -10,3 +10,4 @@ C:\Users\Issam\Desktop\hepl\B2\C#\ItemClass\obj\Debug\net8.0\Modeles.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\ItemClass\obj\Debug\net8.0\refint\Modeles.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\ItemClass\obj\Debug\net8.0\Modeles.pdb
 C:\Users\Issam\Desktop\hepl\B2\C#\ItemClass\obj\Debug\net8.0\ref\Modeles.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\ItemClass\obj\Debug\net8.0\Modeles.sourcelink.json

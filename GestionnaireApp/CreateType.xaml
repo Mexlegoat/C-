@@ -1,0 +1,25 @@
+﻿<Window x:Class="GestionnaireApp.CreateType"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionnaireApp"
+        mc:Ignorable="d"
+        Title="Créer un type" Height="200" Width="300" Background="DarkGray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text ="Type à definir:" FontSize="12"  Margin="10,14,0,0" Height="21" Width="126" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.653,0.548"/>
+        <TextBox x:Name="TypeTextBox" Grid.Row="1" Margin="10,5,0,0" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+
+            <Button x:Name="CancelButton" Margin="0,5,10,5" Content="Annuler" Width="80" Click="Annuler_Click"/>
+            <Button x:Name="ConfirmButton" Margin="0,5,10,5" Content="Confirmer" Width="80" Background="Green" Click="Confirmer_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
+    

@@ -1,23 +1,33 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.IO;
 
-public class DataService
+namespace Services
 {
-    public static void Save<T>(string path, T data)
+    public static class DataService
     {
-        string json = JsonSerializer.Serialize(data, new JsonSerializerOptions
+        // EXACT OPTIONS NEEDED FOR POLYMORPHISM
+        private static readonly JsonSerializerOptions _options = new JsonSerializerOptions
         {
-            WriteIndented = true
-        });
+            WriteIndented = true,
+            PropertyNameCaseInsensitive = true,
+            // This ensures the $type discriminator we added to Item.cs is used
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+        };
 
-        File.WriteAllText(path, json);
-    }
+        public static void Save<T>(string filePath, T data)
+        {
+            string json = JsonSerializer.Serialize(data, _options);
+            File.WriteAllText(filePath, json);
+        }
 
-    public static T Load<T>(string path)
-    {
-        if (!File.Exists(path))
-            return default;
+        public static T Load<T>(string filePath)
+        {
+            if (!File.Exists(filePath)) return default;
 
-        string json = File.ReadAllText(path);
-        return JsonSerializer.Deserialize<T>(json);
+            string json = File.ReadAllText(filePath);
+            // This now uses the options to understand if an item is a Jeu or Travail
+            return JsonSerializer.Deserialize<T>(json, _options);
+        }
     }
 }
