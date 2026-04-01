@@ -23,5 +23,4 @@
 ## Étapes à faire :
 * [ ] **Tests globaux** : Vérifier la robustesse de chaque bouton et les cas d'erreurs.
 * [ ] **Nettoyage Final** : Optimisation des dernières méthodes de tri.
-* [ ] **Maintenance Git** : Résoudre les erreurs de "Pipe ended" (Buffer & .gitignore).
 * [ ] **D'autres idées dans le futur...**
