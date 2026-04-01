@@ -23,4 +23,7 @@
 ## Étapes à faire :
 * [ ] **Tests globaux** : Vérifier la robustesse de chaque bouton et les cas d'erreurs.
 * [ ] **Nettoyage Final** : Optimisation des dernières méthodes de tri.
+* [ ] **Type** : Attribuer des types aux applications.
+* [ ] **Affichage** : Afficher le type ou le genre (paramètre).
+* [ ] **Settings** : Faire fonctionner et sauvegarder le paramètre (et tout ses boutons etc.).
 * [ ] **D'autres idées dans le futur...**
