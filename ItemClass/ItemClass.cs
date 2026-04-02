@@ -15,7 +15,7 @@ namespace ItemClass
         public string Chemin { get; set; }
         public string IconPath { get; set; }
         public DateTime DateAjoute { get; set; }
-        public Type CustomType { get; set; }
+        public TypeClass CustomType { get; set; }
         public Item()
         {
         }

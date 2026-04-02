@@ -36,7 +36,7 @@ namespace GestionnaireApp
             {
                 // 3. Login Success! 
                 // Pass the 'CurrentUser' found by the service to the MainWindow
-                MainWindow main = new MainWindow(_userService.CurrentUser);
+                MainWindow main = new MainWindow(_userService.CurrentUser, _userService);
                 main.Show();
 
                 // 4. Close the Login Window container

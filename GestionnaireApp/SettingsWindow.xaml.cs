@@ -33,6 +33,7 @@ namespace GestionnaireApp
             RadioSombre.IsChecked = _user.Preferences.IsDarkMode;
             RadioClair.IsChecked = !_user.Preferences.IsDarkMode;
             CheckShowType.IsChecked = _user.Preferences.ShowType;
+            CheckShowGenre.IsChecked = _user.Preferences.ShowGenre;
             RadioExecActive.IsChecked = _user.Preferences.DoubleClickToExecute;
             PathTextBox.Text = _user.Preferences.DefaultBrowsePath;
         }
@@ -60,7 +61,14 @@ namespace GestionnaireApp
             {
                 _user.Preferences.ShowType = false;
             }
-
+            if (CheckShowGenre.IsChecked == true)
+            {
+                _user.Preferences.ShowGenre = true;
+            }
+            else
+            {
+                _user.Preferences.ShowGenre = false;
+            }
             // Check Double Click Execution
             if (RadioExecActive.IsChecked == true)
             {
@@ -79,6 +87,7 @@ namespace GestionnaireApp
             // We save these so Windows remembers them even if the JSON is moved
             Services.MyAppParamManager.SaveRegistryParameter("IsDarkMode", _user.Preferences.IsDarkMode.ToString());
             Services.MyAppParamManager.SaveRegistryParameter("ShowType", _user.Preferences.ShowType.ToString());
+            Services.MyAppParamManager.SaveRegistryParameter("ShowGenre", _user.Preferences.ShowGenre.ToString());
             Services.MyAppParamManager.SaveRegistryParameter("StoragePath", PathTextBox.Text);
 
 

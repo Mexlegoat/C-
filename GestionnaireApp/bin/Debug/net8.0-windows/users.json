@@ -5,29 +5,22 @@
     "Categories": [
       {
         "Nom": "Jeux",
-        "Items": [
-          {
-            "$type": "jeu",
-            "Genre": "Jeu",
-            "Id": 1,
-            "Nom": "Jeu",
-            "Chemin": "",
-            "IconPath": "",
-            "DateAjoute": "2026-04-01T23:40:04.563305+02:00"
-          }
-        ]
+        "Items": []
       },
       {
         "Nom": "Travail",
         "Items": [
           {
             "$type": "travail",
-            "Langage": "Travail",
-            "Id": 2,
-            "Nom": "Travail",
+            "Langage": "tra",
+            "Id": 3,
+            "Nom": "trav",
             "Chemin": "",
             "IconPath": "",
-            "DateAjoute": "2026-04-01T23:40:11.8185835+02:00"
+            "DateAjoute": "2026-04-02T22:17:33.3542032+02:00",
+            "CustomType": {
+              "Nom": "tyyd"
+            }
           }
         ]
       },
@@ -36,11 +29,15 @@
         "Items": []
       }
     ],
-    "UserCreatedTypes": [],
+    "UserCreatedTypes": [
+      {
+        "Nom": "tyyd"
+      }
+    ],
     "Preferences": {
       "IsDarkMode": false,
-      "ShowType": false,
-      "ShowGenre": false,
+      "ShowType": true,
+      "ShowGenre": true,
       "DoubleClickToExecute": true,
       "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\"
     }

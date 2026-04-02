@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
+using Modeles;
 using Services;
 using UserClass;
 
@@ -61,7 +63,8 @@ namespace Services // Keep it in the same namespace as DataService
                 Username = username,
                 Password = password,
                 // Initialize the list so it's not null
-                Categories = new List<CategoryClass.Categorie>()
+                Categories = new List<CategoryClass.Categorie>(),
+                UserCreatedTypes = new List<TypeClass>() 
             };
 
             _users.Add(newUser);

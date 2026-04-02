@@ -53,7 +53,7 @@ namespace GestionnaireApp
                 _userService.Save();
 
                 // 4. Success! Open MainWindow
-                MainWindow main = new MainWindow(_userService.CurrentUser);
+                MainWindow main = new MainWindow(_userService.CurrentUser, _userService);
                 main.Show();
 
                 // Close the Login Window
