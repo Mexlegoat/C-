@@ -13,6 +13,18 @@
 * [x] **Persistance JSON** : Sauvegarde et chargement gérant l'héritage (Polymorphisme).
 * [x] **Exploration de Fichiers** : Système de "Browse" ouvrant directement l'explorateur Windows.
 * [x] **Navigation de Dossiers** : Calcul dynamique du chemin projet (BaseDirectory).
+* [x] **Ajout de 3 paramètres qui fonctionnent correctement:**
+* [x] **- Affichage du genre.**
+* [x] **- Affichage du type.**
+* [x] **- Execution de l'application avec double-clic.**
+* [x] **Ajout du bouton Supprimer pour supprimer une application (et actualiser le datagrid pour le mettre à jour).**
+* [x] **Ajout du bouton pour créer un type quelconque.**
+* [x] **Ajout de la combobox pour sélectionner (ou pas) un type parmis les types que l'utilisateur a créé (et sauvegardé donc dans le .json) avec un bouton pour Modifier le type (Mettre à jour la listbox et le datagrid).**
+* [x] **Ajout d'un clic sur la listbox pour permettre à l'utilisateur d'accéder donc à la suppression et à l'ajout d'un type.**
+* [x] **Continuation du précédant: Ajout d'une fonction qui permet de remettre la listbox à sa forme de base quand on clique autre part que sur la listbox elle-même.**
+* [x] **Modification de la fonction LaunchApp et d'autres fonctions pour rajouter des MessageBoxs pour clarifier et mieux expliquer les erreurs.**
+
+
 
 ## Détails Techniques :
 * **Héritage & JSON** : Utilisation de `[JsonDerivedType]` pour sauvegarder correctement les classes enfants (Jeu, Travail, Multimedia).
@@ -23,7 +35,7 @@
 ## Étapes à faire :
 * [ ] **Tests globaux** : Vérifier la robustesse de chaque bouton et les cas d'erreurs.
 * [ ] **Nettoyage Final** : Optimisation des dernières méthodes de tri.
-* [ ] **Type** : Attribuer des types aux applications.
-* [ ] **Affichage** : Afficher le type ou le genre (paramètre).
-* [ ] **Settings** : Faire fonctionner et sauvegarder le paramètre (et tout ses boutons etc.).
+* [ ] **Settings** : Faire fonctionner la radio pour le thème (Sombre et clair).
+* [ ] **Recherche** : Ajouter une fonction qui permet de rechercher des applications à partir du type de recherche (voir après).
+* [ ] **Settings** : Ajouter un autre paramètre pour pouvoir choisir (radio) entre Nom, Genre et Type pour rechercher dans la barre de recherche.
 * [ ] **D'autres idées dans le futur...**
