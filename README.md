@@ -28,9 +28,7 @@
 
 ## Détails Techniques :
 * **Héritage & JSON** : Utilisation de `[JsonDerivedType]` pour sauvegarder correctement les classes enfants (Jeu, Travail, Multimedia).
-* **Logique de Navigation** : Utilisation de `Directory.GetParent` pour remonter proprement dans l'arborescence des dossiers.
-* **Ouverture Windows Explorer** : Intégration de `Process.Start` pour ouvrir le dossier réel au lieu d'un simple sélecteur.
-* **Code Explicite** : Remplacement des opérateurs complexes (`??`, `?`) par des structures `if` pour une meilleure lisibilité.
+
 
 ## Étapes à faire :
 * [ ] **Tests globaux** : Vérifier la robustesse de chaque bouton et les cas d'erreurs.
