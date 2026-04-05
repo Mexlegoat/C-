@@ -23,17 +23,13 @@
 * [x] **Ajout d'un clic sur la listbox pour permettre à l'utilisateur d'accéder donc à la suppression et à l'ajout d'un type.**
 * [x] **Continuation du précédant: Ajout d'une fonction qui permet de remettre la listbox à sa forme de base quand on clique autre part que sur la listbox elle-même.**
 * [x] **Modification de la fonction LaunchApp et d'autres fonctions pour rajouter des MessageBoxs pour clarifier et mieux expliquer les erreurs.**
-
-
-
+* [x] **Recherche** : Ajouter une fonction qui permet de rechercher des applications à partir du type de recherche (voir après).
+* [x] **Settings** : Ajouter un autre paramètre pour pouvoir choisir (radio) entre Nom, Genre et Type pour rechercher dans la barre de recherche.
+* [x] **Settings** : Faire fonctionner la radio pour le thème (Sombre et clair).
+* [x] **Tests globaux** : Vérifier tout les boutons et les erreurs.
+* [x] **Nettoyage Final** : Optimisation des dernières méthodes de tri.
 ## Détails Techniques :
 * **Héritage & JSON** : Utilisation de `[JsonDerivedType]` pour sauvegarder correctement les classes enfants (Jeu, Travail, Multimedia).
 
 
-## Étapes à faire :
-* [ ] **Tests globaux** : Vérifier la robustesse de chaque bouton et les cas d'erreurs.
-* [ ] **Nettoyage Final** : Optimisation des dernières méthodes de tri.
-* [ ] **Settings** : Faire fonctionner la radio pour le thème (Sombre et clair).
-* [ ] **Recherche** : Ajouter une fonction qui permet de rechercher des applications à partir du type de recherche (voir après).
-* [ ] **Settings** : Ajouter un autre paramètre pour pouvoir choisir (radio) entre Nom, Genre et Type pour rechercher dans la barre de recherche.
-* [ ] **D'autres idées dans le futur...**
+## Projet complété!
