@@ -17,7 +17,6 @@ using Microsoft.VisualBasic;
 
 namespace GestionnaireApp
 {
-
     public partial class MainWindow : Window
     {
         private UserService _userService = new UserService();
@@ -26,20 +25,16 @@ namespace GestionnaireApp
         public ObservableCollection<Item> ItemsMm { get; set; } = new();
         public ObservableCollection<TypeClass> AllTypes { get; set; }
         public ObservableCollection<Item> AllItems { get; set; } = new();
-
         public ObservableCollection<string> Types { get; set; } = new();
         public User CurrentUser { get; set; }
         string projectPath = AppDomain.CurrentDomain.BaseDirectory;
+
         public MainWindow(User user, UserService service)
         {
             InitializeComponent();
-
-            // Store the user sent from the Login page
             this.CurrentUser = user;
             this._userService = service;
             AllTypes = new ObservableCollection<TypeClass>(this.CurrentUser.UserCreatedTypes);
-            // Important: Set the DataContext so the UI can see the data
-
             this.DataContext = this;
             if (user.Preferences.IsDarkMode == true)
             {
@@ -49,21 +44,14 @@ namespace GestionnaireApp
             {
                 App.AppliquerTheme(false);
             }
-
-
-            // On initialise l'ObservableCollection pour l'UI
-            // On passe la liste de l'utilisateur en paramètre
-            // (Optional) Load the user's specific lists into your collections
             LoadUserData();
-
         }
+
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string filtre = SearchTextBox.Text.ToLower();
-
             if (string.IsNullOrWhiteSpace(filtre))
             {
-                // Si la barre est vide, on réaffiche les listes originales
                 ListJeu.ItemsSource = ItemsJeu;
                 ListTravail.ItemsSource = ItemsTravail;
                 ListMm.ItemsSource = ItemsMm;
@@ -71,7 +59,6 @@ namespace GestionnaireApp
             }
             else
             {
-                // Sinon on filtre chaque liste en utilisant notre fonction avec les "if"
                 ListJeu.ItemsSource = ItemsJeu.Where(a => AppliquerFiltre(a, filtre)).ToList();
                 ListTravail.ItemsSource = ItemsTravail.Where(a => AppliquerFiltre(a, filtre)).ToList();
                 ListMm.ItemsSource = ItemsMm.Where(a => AppliquerFiltre(a, filtre)).ToList();
@@ -81,17 +68,12 @@ namespace GestionnaireApp
 
         private bool AppliquerFiltre(dynamic app, string texte)
         {
-            // On récupère le choix depuis les préférences de l'utilisateur
             int choix = CurrentUser.Preferences.SearchType;
-
-            // 0 = Recherche par NOM
             if (choix == 0)
             {
                 if (app.Nom != null) return app.Nom.ToLower().Contains(texte);
                 return false;
             }
-
-            // 1 = Recherche par TYPE
             if (choix == 1)
             {
                 if (app.CustomType != null)
@@ -100,8 +82,6 @@ namespace GestionnaireApp
                 }
                 return false;
             }
-
-            // 2 = Recherche par GENRE
             if (choix == 2)
             {
                 var propertyGenre = app.GetType().GetProperty("Genre");
@@ -110,7 +90,6 @@ namespace GestionnaireApp
                     var valeur = propertyGenre.GetValue(app);
                     if (valeur != null) return valeur.ToString().ToLower().Contains(texte);
                 }
-
                 var propertyLang = app.GetType().GetProperty("Langage");
                 if (propertyLang != null)
                 {
@@ -118,37 +97,26 @@ namespace GestionnaireApp
                     if (valeurLang != null) return valeurLang.ToString().ToLower().Contains(texte);
                 }
             }
-
             return false;
         }
+
         private void AddTypeToItem_Click(object sender, RoutedEventArgs e)
         {
-            // 1. Récupérer le bouton qui a été cliqué
             Button btn = sender as Button;
-
             if (btn != null)
             {
-                // 2. Récupérer l'objet "Item" (Jeu, Travail ou Multimedia) lié à cette ligne
-                // On utilise le DataContext pour que ça marche dans n'importe quelle ListBox
                 Item applicationConcernee = btn.DataContext as Item;
-
                 if (applicationConcernee != null)
                 {
-                    // 3. Trouver la ComboBox "TypeSelector" dans le même conteneur que le bouton
                     FrameworkElement parent = btn.Parent as FrameworkElement;
                     ComboBox combo = null;
-
                     if (parent != null)
                     {
-                        // On cherche la ComboBox par son x:Name "TypeSelector" défini dans le XAML
                         combo = LogicalTreeHelper.FindLogicalNode(parent, "TypeSelector") as ComboBox;
                     }
-
                     if (combo != null)
                     {
-                        // 4. Récupérer le type choisi dans la liste des types
                         TypeClass typeChoisi = combo.SelectedItem as TypeClass;
-
                         if (typeChoisi == null || typeChoisi.Nom == "(Aucun)")
                         {
                             applicationConcernee.CustomType = null;
@@ -171,28 +139,21 @@ namespace GestionnaireApp
                 }
             }
         }
+
         private void Supprimer_Item(object sender, RoutedEventArgs e)
         {
-            // 1. On identifie l'item sur lequel on a cliqué
             Button btn = sender as Button;
             Item itemASupprimer = btn?.DataContext as Item;
-
             if (itemASupprimer != null)
             {
-                // 2. Petite confirmation pour éviter les erreurs
                 var result = MessageBox.Show($"Supprimer définitivement '{itemASupprimer.Nom}' ?",
                                              "Attention", MessageBoxButton.YesNo, MessageBoxImage.Stop);
-
                 if (result == MessageBoxResult.Yes)
                 {
-                    // 3. Suppression des listes d'affichage (UI)
-                    // On le retire de TOUTES les listes possibles
                     AllItems.Remove(itemASupprimer);
                     ItemsJeu.Remove(itemASupprimer);
                     ItemsTravail.Remove(itemASupprimer);
                     ItemsMm.Remove(itemASupprimer);
-
-                    // 4. Suppression de la structure de données (JSON)
                     if (CurrentUser.Categories != null)
                     {
                         foreach (var cat in CurrentUser.Categories)
@@ -204,11 +165,7 @@ namespace GestionnaireApp
                             }
                         }
                     }
-
-                    // 5. Sauvegarde via le service
                     _userService.Save();
-
-                    // 6. Rafraîchissement visuel du DataGrid
                     if (AppDataGrid != null)
                     {
                         AppDataGrid.Items.Refresh();
@@ -216,6 +173,7 @@ namespace GestionnaireApp
                 }
             }
         }
+
         private void LoadUserData()
         {
             ItemsJeu.Clear();
@@ -239,24 +197,21 @@ namespace GestionnaireApp
                 {
                     foreach (var item in cat.Items)
                     {
-                        // Add to specific list
                         if (cat.Nom == "Jeux") ItemsJeu.Add(item);
                         else if (cat.Nom == "Travail") ItemsTravail.Add(item);
                         else if (cat.Nom == "Multimedia") ItemsMm.Add(item);
-
-                        // Also add to the "Everything" list
                         AllItems.Add(item);
                     }
                 }
             }
             SyncIdCompteur();
         }
+
         private void CreerJeu(object sender, RoutedEventArgs e)
         {
             var window = new CreateGame();
             if (window.ShowDialog() == true)
             {
-                // 1. Create the object
                 var nouveauJeu = new Jeu
                 {
                     Nom = window.NomApp,
@@ -264,12 +219,9 @@ namespace GestionnaireApp
                     Genre = window.GenreApp,
                     IconPath = window.CheminApp
                 };
-
-                // 2. Add to the UI list (so it shows up immediately)
                 nouveauJeu.InitializeNewItem();
                 ItemsJeu.Add(nouveauJeu);
                 AllItems.Add(nouveauJeu);
-                // 3. Add to the User's Data Structure
                 var catJeux = CurrentUser.Categories.FirstOrDefault(c => c.Nom == "Jeux");
                 if (catJeux == null)
                 {
@@ -277,38 +229,27 @@ namespace GestionnaireApp
                     CurrentUser.Categories.Add(catJeux);
                 }
                 catJeux.Items.Add(nouveauJeu);
-
-                // 4. Save to the JSON file
-                // (Assuming you have a reference to your UserService or call DataService directly)
                 _userService.Save();
             }
         }
+
         private void Ajouter_Type(object sender, RoutedEventArgs e)
         {
-            // For now, let's use a simple InputBox or a small custom Window
             string newTypeName = Microsoft.VisualBasic.Interaction.InputBox("Nom du nouveau type :", "Créer un Type", "");
-
             if (!string.IsNullOrWhiteSpace(newTypeName))
             {
-                // 1. Create the object
                 var newType = new Modeles.TypeClass { Nom = newTypeName };
                 AllTypes.Add(newType);
-
                 if (CurrentUser.UserCreatedTypes == null)
                     CurrentUser.UserCreatedTypes = new List<TypeClass>();
-
                 CurrentUser.UserCreatedTypes.Add(newType);
-
-                // 3. SAUVEGARDE RÉELLE
-                // On demande au service de sauvegarder l'objet CurrentUser qui contient maintenant le type
                 _userService.Save();
-
                 System.Windows.MessageBox.Show($"Type '{newTypeName}' ajouté avec succès !");
             }
         }
+
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            // Si on clique sur le fond (la Grid ou la Window), on enlève le focus/sélection
             if (e.OriginalSource is Grid || e.OriginalSource is Window || e.OriginalSource is ScrollViewer)
             {
                 ListJeu.SelectedIndex = -1;
@@ -316,27 +257,22 @@ namespace GestionnaireApp
                 ListMm.SelectedIndex = -1;
             }
         }
+
         private void CreerTravail(object sender, RoutedEventArgs e)
         {
             var window = new CreateWork();
             if (window.ShowDialog() == true)
             {
-                // 1. Create the object (Using the properties from CreateWork.xaml.cs)
                 var nouveauTravail = new Travail
                 {
                     Nom = window.NomApp,
                     Chemin = window.CheminApp,
-                    Langage = window.LangageApp, // Specific to Travail
+                    Langage = window.LangageApp,
                     IconPath = window.CheminApp
                 };
-
-                // 2. Add to the UI list
                 nouveauTravail.InitializeNewItem();
-
                 ItemsTravail.Add(nouveauTravail);
-                AllItems.Add(nouveauTravail); // Add to DataGrid lis
-
-                // 3. Add to the User's Data Structure
+                AllItems.Add(nouveauTravail);
                 var catTravail = CurrentUser.Categories.FirstOrDefault(c => c.Nom == "Travail");
                 if (catTravail == null)
                 {
@@ -344,9 +280,6 @@ namespace GestionnaireApp
                     CurrentUser.Categories.Add(catTravail);
                 }
                 catTravail.Items.Add(nouveauTravail);
-
-                // 4. Save to the JSON file
-                // Note: Make sure you save the whole list of users if your DataService expects a List<User>
                 _userService.Save();
             }
         }
@@ -356,22 +289,16 @@ namespace GestionnaireApp
             var window = new CreateMultimedia();
             if (window.ShowDialog() == true)
             {
-                // 1. Create the object
                 var nouveauMm = new Multimedia
                 {
                     Nom = window.NomApp,
                     Chemin = window.CheminApp,
-                    Genre = window.TypeApp, // Note: You used 'Genre' in your class for Multimedia Type
+                    Genre = window.TypeApp,
                     IconPath = window.CheminApp
                 };
-
-                // 2. Add to the UI list
                 nouveauMm.InitializeNewItem();
-
-                AllItems.Add(nouveauMm); // Add to DataGrid lis
+                AllItems.Add(nouveauMm);
                 ItemsMm.Add(nouveauMm);
-
-                // 3. Add to the User's Data Structure
                 var catMm = CurrentUser.Categories.FirstOrDefault(c => c.Nom == "Multimedia");
                 if (catMm == null)
                 {
@@ -379,63 +306,49 @@ namespace GestionnaireApp
                     CurrentUser.Categories.Add(catMm);
                 }
                 catMm.Items.Add(nouveauMm);
-
-                // 4. Save to the JSON file
                 _userService.Save();
             }
         }
+
         private void List_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ListBox list = sender as ListBox;
-
             if (list != null)
             {
-                // Set the DataGrid's source to the same source as the clicked ListBox
                 AppDataGrid.ItemsSource = list.ItemsSource;
             }
         }
+
         private void Ouvrir_Param(object sender, RoutedEventArgs e)
         {
-            // 1. Create the window and pass the CurrentUser
             var settingsWin = new SettingsWindow(CurrentUser);
-
-            // 2. Show the window as a dialog (blocks interaction with main window)
             if (settingsWin.ShowDialog() == true)
             {
-                // 3. If they clicked "Save", persist the changes to the JSON file
                 _userService.Save();
                 this.DataContext = null;
                 this.DataContext = this;
-
-                // 4. Force the UI to refresh (in case they changed 'Show Type')
                 LoadUserData();
-
                 MessageBox.Show("Paramètres enregistrés !");
             }
         }
+
         private void SyncIdCompteur()
         {
             int maxId = 0;
-
-            // We check all 3 collections to find the absolute highest ID currently in use
             foreach (var item in AllItems)
             {
                 if (item.Id > maxId) maxId = item.Id;
             }
-
-            // Tell the Item class to start the next ID from maxId + 1
-            // Note: This requires a static method in your Item class (see below)
             Item.SetNextId(maxId + 1);
         }
 
         private void LaunchApp(object sender, MouseButtonEventArgs e)
         {
             ListBox list = sender as ListBox;
-
             if (list != null)
             {
                 object selected = list.SelectedItem;
-                if(this.CurrentUser.Preferences.DoubleClickToExecute)
+                if (this.CurrentUser.Preferences.DoubleClickToExecute)
                 {
                     if (selected is ILaunchable app)
                     {
@@ -445,12 +358,10 @@ namespace GestionnaireApp
                         }
                         else
                         {
-                            // C'est ici que ton message d'erreur doit être !
                             MessageBox.Show($"Erreur, L'application {app.Nom} n'est pas executable!");
                         }
                     }
                 }
-
             }
         }
     }

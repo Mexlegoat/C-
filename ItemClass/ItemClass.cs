@@ -38,7 +38,6 @@ namespace ItemClass
         {
             if (string.IsNullOrWhiteSpace(this.Chemin) == false)
             {
-                // 2. Only start the process if we have a real path
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = this.Chemin,

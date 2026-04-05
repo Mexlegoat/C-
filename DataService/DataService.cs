@@ -6,12 +6,10 @@ namespace Services
 {
     public static class DataService
     {
-        // EXACT OPTIONS NEEDED FOR POLYMORPHISM
         private static readonly JsonSerializerOptions _options = new JsonSerializerOptions
         {
             WriteIndented = true,
             PropertyNameCaseInsensitive = true,
-            // This ensures the $type discriminator we added to Item.cs is used
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
         };
 
@@ -26,7 +24,6 @@ namespace Services
             if (!File.Exists(filePath)) return default;
 
             string json = File.ReadAllText(filePath);
-            // This now uses the options to understand if an item is a Jeu or Travail
             return JsonSerializer.Deserialize<T>(json, _options);
         }
     }

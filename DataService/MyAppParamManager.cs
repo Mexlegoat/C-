@@ -7,21 +7,18 @@ namespace Services
     {
         private const string RootPath = @"Software\GestionnaireApp";
 
-        // Saves a parameter to the Registry
         public static void SaveRegistryParameter(string name, string value)
         {
-            // Create or open the subkey
             RegistryKey key = Registry.CurrentUser.CreateSubKey(RootPath);
 
-            // Check if the key was successfully created/opened
             if (key != null)
             {
                 key.SetValue(name, value);
-                key.Dispose(); // Manually close the key since we aren't using 'using'
+                key.Dispose(); 
             }
         }
 
-        // Loads a parameter from the Registry
+        
         public static string LoadRegistryParameter(string name, string defaultValue)
         {
             RegistryKey key = Registry.CurrentUser.OpenSubKey(RootPath);
@@ -31,7 +28,7 @@ namespace Services
             {
                 object registryValue = key.GetValue(name);
 
-                // If the value exists in the registry, use it
+                
                 if (registryValue != null)
                 {
                     result = registryValue.ToString();

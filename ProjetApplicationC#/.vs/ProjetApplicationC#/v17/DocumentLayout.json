@@ -3,22 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\creategame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\createmultimedia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\createtype.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\creatework.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\loginuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\startup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\userclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F77A47-235D-467C-94B4-E1BCB5B9E38C}|..\\DataService\\Services.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\dataservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78F77A47-235D-467C-94B4-E1BCB5B9E38C}|..\\DataService\\Services.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\dataservice\\myappparammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\userclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F77A47-235D-467C-94B4-E1BCB5B9E38C}|..\\DataService\\Services.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\dataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\typeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\itemclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\categoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\startup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -27,16 +73,10 @@
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\th\u00E8mes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\th\u00E8mes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\createmultimedia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\loginuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -54,34 +94,7 @@
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\itemclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\typeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\loginuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78F77A47-235D-467C-94B4-E1BCB5B9E38C}|..\\DataService\\Services.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\dataservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78F77A47-235D-467C-94B4-E1BCB5B9E38C}|..\\DataService\\Services.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\dataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\categoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\creatework.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\gestionnaireapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\startup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\projetapplicationc#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -100,20 +113,7 @@
       "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\creategame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\creategame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\createtype.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\modeles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CA92F0-1C14-489B-B723-2E799FE1B659}|..\\GestionnaireApp\\GestionnaireApp.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\gestionnaireapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -123,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -139,31 +139,254 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Page2.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Page2.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\Page2.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:47:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateWork.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateWork.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateWork.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateWork.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\CreateWork.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:22:48.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateType.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateType.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateType.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateType.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\CreateType.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T18:53:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateMultimedia.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateMultimedia.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateMultimedia.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateMultimedia.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\CreateMultimedia.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:25:56.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CreateGame.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateGame.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateGame.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateGame.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\CreateGame.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:10:59.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:56:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T12:26:46.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SettingsWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\SettingsWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\SettingsWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\SettingsWindow.xaml.cs",
               "RelativeToolTip": "..\\GestionnaireApp\\SettingsWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwI8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:16:17.717Z"
+              "WhenOpened": "2026-04-01T20:16:17.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "LoginUser.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\LoginUser.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\LoginUser.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\LoginUser.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\LoginUser.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:56:56.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Startup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml.cs",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Startup.xaml.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml.cs",
+              "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T20:00:28.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserClass.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\UserClass.cs",
+              "RelativeDocumentMoniker": "..\\ItemClass\\UserClass.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\UserClass.cs",
+              "RelativeToolTip": "..\\ItemClass\\UserClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:28:49.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\DataService\\UserService.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
+              "RelativeToolTip": "..\\DataService\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:27:50.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\GestionnaireApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAK4BAAAAAAAAAAA3wMMBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwG8BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:03:14.601Z"
+              "WhenOpened": "2026-03-28T04:03:14.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
+              "Title": "MyAppParamManager.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\MyAppParamManager.cs",
+              "RelativeDocumentMoniker": "..\\DataService\\MyAppParamManager.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\MyAppParamManager.cs",
+              "RelativeToolTip": "..\\DataService\\MyAppParamManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T20:44:36.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\DataService.cs",
+              "RelativeDocumentMoniker": "..\\DataService\\DataService.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\DataService.cs",
+              "RelativeToolTip": "..\\DataService\\DataService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:23:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:02:45.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TypeClass.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\TypeClass.cs",
+              "RelativeDocumentMoniker": "..\\ItemClass\\TypeClass.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\TypeClass.cs",
+              "RelativeToolTip": "..\\ItemClass\\TypeClass.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T18:12:37.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemClass.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\ItemClass.cs",
+              "RelativeDocumentMoniker": "..\\ItemClass\\ItemClass.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\ItemClass.cs",
+              "RelativeToolTip": "..\\ItemClass\\ItemClass.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA9wCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:57:24.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\CategoryClass.cs",
+              "RelativeDocumentMoniker": "..\\ItemClass\\CategoryClass.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\CategoryClass.cs",
+              "RelativeToolTip": "..\\ItemClass\\CategoryClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T16:43:26.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\MainWindow.xaml",
@@ -175,18 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Startup.xaml",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Startup.xaml",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml",
-              "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T20:00:03.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "SettingsWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\SettingsWindow.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\SettingsWindow.xaml",
@@ -197,31 +409,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserClass.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\UserClass.cs",
-              "RelativeDocumentMoniker": "..\\ItemClass\\UserClass.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\UserClass.cs",
-              "RelativeToolTip": "..\\ItemClass\\UserClass.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAApwBUAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:28:49.319Z"
+              "DocumentIndex": 21,
+              "Title": "Startup.xaml",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Startup.xaml",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml",
+              "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T20:00:03.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyAppParamManager.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\MyAppParamManager.cs",
-              "RelativeDocumentMoniker": "..\\DataService\\MyAppParamManager.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\MyAppParamManager.cs",
-              "RelativeToolTip": "..\\DataService\\MyAppParamManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:44:36.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "LightTheme.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Th\u00E8mes\\LightTheme.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\Th\u00E8mes\\LightTheme.xaml",
@@ -232,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\App.xaml",
@@ -244,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "DarkTheme.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Th\u00E8mes\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\Th\u00E8mes\\DarkTheme.xaml",
@@ -255,19 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T12:26:46.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "CreateMultimedia.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateMultimedia.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateMultimedia.xaml",
@@ -278,19 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateMultimedia.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateMultimedia.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateMultimedia.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateMultimedia.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\CreateMultimedia.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA7wBMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:25:56.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "LoginUser.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\LoginUser.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\LoginUser.xaml",
@@ -301,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "CreateType.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateType.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateType.xaml",
@@ -312,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "CreateWork.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateWork.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateWork.xaml",
@@ -323,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "Page2.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Page2.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\Page2.xaml",
@@ -334,91 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ItemClass.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\ItemClass.cs",
-              "RelativeDocumentMoniker": "..\\ItemClass\\ItemClass.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\ItemClass.cs",
-              "RelativeToolTip": "..\\ItemClass\\ItemClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:57:24.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TypeClass.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\TypeClass.cs",
-              "RelativeDocumentMoniker": "..\\ItemClass\\TypeClass.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\TypeClass.cs",
-              "RelativeToolTip": "..\\ItemClass\\TypeClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:12:37.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\DataService\\UserService.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
-              "RelativeToolTip": "..\\DataService\\UserService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwE4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:27:50.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginUser.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\LoginUser.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\LoginUser.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\LoginUser.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\LoginUser.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvysAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:56:56.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Page2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Page2.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Page2.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Page2.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\Page2.xaml.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvz4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:47:36.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DataService.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\DataService.cs",
-              "RelativeDocumentMoniker": "..\\DataService\\DataService.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\DataService.cs",
-              "RelativeToolTip": "..\\DataService\\DataService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:23:09.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CategoryClass.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\CategoryClass.cs",
-              "RelativeDocumentMoniker": "..\\ItemClass\\CategoryClass.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\CategoryClass.cs",
-              "RelativeToolTip": "..\\ItemClass\\CategoryClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T16:43:26.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "GestionnaireApp.csproj",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\GestionnaireApp.csproj",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\GestionnaireApp.csproj",
@@ -430,19 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateWork.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateWork.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateWork.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateWork.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\CreateWork.xaml.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:22:48.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ProjetApplicationC#.csproj",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\ProjetApplicationC#.csproj",
               "RelativeDocumentMoniker": "ProjetApplicationC#.csproj",
@@ -454,19 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Startup.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\Startup.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:00:28.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "IconConverter.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\IconConverter.cs",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\IconConverter.cs",
@@ -478,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
@@ -491,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
@@ -504,19 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CreateGame.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateGame.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateGame.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateGame.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\CreateGame.xaml.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwDYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:10:59.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "CreateGame.xaml",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateGame.xaml",
               "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateGame.xaml",
@@ -527,19 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateType.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateType.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\CreateType.xaml.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\CreateType.xaml.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\CreateType.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwC4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:53:00.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Modeles.csproj",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ItemClass\\Modeles.csproj",
               "RelativeDocumentMoniker": "..\\ItemClass\\Modeles.csproj",
@@ -548,30 +591,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-04-01T18:10:40.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:02:45.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\AssemblyInfo.cs",
-              "RelativeToolTip": "..\\GestionnaireApp\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:56:04.949Z"
             }
           ]
         }
