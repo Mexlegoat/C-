@@ -19,5 +19,6 @@ namespace UserClass
         public bool ShowGenre { get; set; } = false;
         public bool DoubleClickToExecute { get; set; } = true;
         public string DefaultBrowsePath { get; set; } = "C:\\";
+        public int SearchType { get; set; } = 0; // 0 = Name, 1 = Type, 2 = Genre
     }
 }

@@ -5,7 +5,62 @@
     "Categories": [
       {
         "Nom": "Jeux",
-        "Items": []
+        "Items": [
+          {
+            "$type": "jeu",
+            "Genre": "dede",
+            "Id": 4,
+            "Nom": "delete",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T14:58:14.9036351+02:00",
+            "CustomType": {
+              "Nom": "tyyd"
+            }
+          },
+          {
+            "$type": "jeu",
+            "Genre": "non",
+            "Id": 6,
+            "Nom": "oui",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:20:45.5796557+02:00",
+            "CustomType": {
+              "Nom": "Fun"
+            }
+          },
+          {
+            "$type": "jeu",
+            "Genre": "test",
+            "Id": 7,
+            "Nom": "testtes",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:20:52.1880099+02:00",
+            "CustomType": {
+              "Nom": "Fun"
+            }
+          },
+          {
+            "$type": "jeu",
+            "Genre": "de",
+            "Id": 8,
+            "Nom": "testtest",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:20:58.6085416+02:00"
+          },
+          {
+            "$type": "jeu",
+            "Genre": "tt",
+            "Id": 9,
+            "Nom": "test",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:21:05.9121681+02:00"
+          }
+        ]
       },
       {
         "Nom": "Travail",
@@ -21,25 +76,60 @@
             "CustomType": {
               "Nom": "tyyd"
             }
+          },
+          {
+            "$type": "travail",
+            "Langage": "langage C, website",
+            "Id": 11,
+            "Nom": "VisualStudio Code",
+            "Chemin": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
+            "IconPath": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
+            "DateAjoute": "2026-04-05T15:29:32.0909495+02:00",
+            "CustomType": {
+              "Nom": "Fun"
+            }
           }
         ]
       },
       {
         "Nom": "Multimedia",
-        "Items": []
+        "Items": [
+          {
+            "$type": "multimedia",
+            "Genre": "dede",
+            "Id": 5,
+            "Nom": "delete",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:20:01.1656193+02:00"
+          },
+          {
+            "$type": "multimedia",
+            "Genre": "tr",
+            "Id": 10,
+            "Nom": "tye",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-05T15:28:14.981944+02:00"
+          }
+        ]
       }
     ],
     "UserCreatedTypes": [
       {
         "Nom": "tyyd"
+      },
+      {
+        "Nom": "Fun"
       }
     ],
     "Preferences": {
-      "IsDarkMode": false,
+      "IsDarkMode": true,
       "ShowType": true,
       "ShowGenre": true,
       "DoubleClickToExecute": true,
-      "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\"
+      "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\",
+      "SearchType": 1
     }
   }
 ]

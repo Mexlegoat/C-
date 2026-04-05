@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionnaireApp"
         mc:Ignorable="d"
-        Title="Créer un type" Height="200" Width="300" Background="DarkGray">
+        Title="Créer un type" Height="200" Width="300" Background="{DynamicResource PrimaryBg}"
+        Foreground="{DynamicResource PrimaryText}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>

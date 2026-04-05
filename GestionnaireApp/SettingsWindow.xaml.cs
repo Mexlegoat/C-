@@ -14,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using UserClass;
-
 namespace GestionnaireApp
 {
     public partial class SettingsWindow : Window
@@ -36,6 +35,18 @@ namespace GestionnaireApp
             CheckShowGenre.IsChecked = _user.Preferences.ShowGenre;
             RadioExecActive.IsChecked = _user.Preferences.DoubleClickToExecute;
             PathTextBox.Text = _user.Preferences.DefaultBrowsePath;
+            if (_user.Preferences.SearchType == 0)
+            {
+                RadioNom.IsChecked = true;
+            }
+            else if (_user.Preferences.SearchType == 1)
+            {
+                RadioType.IsChecked = true;
+            }
+            else if (_user.Preferences.SearchType == 2)
+            {
+                RadioGenre.IsChecked = true;
+            }
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
@@ -82,15 +93,28 @@ namespace GestionnaireApp
             // Save the Browse Path from the TextBox
             _user.Preferences.DefaultBrowsePath = PathTextBox.Text;
 
-
+            if (RadioSombre.IsChecked == true)
+            {
+                _user.Preferences.IsDarkMode = true;
+                App.AppliquerTheme(true);
+            }
+            else
+            {
+                _user.Preferences.IsDarkMode = false;
+                App.AppliquerTheme(false);
+            }
+            if (RadioNom.IsChecked == true) _user.Preferences.SearchType = 0;
+            else if (RadioType.IsChecked == true) _user.Preferences.SearchType = 1;
+            else if (RadioGenre.IsChecked == true) _user.Preferences.SearchType = 2;
             // --- 2. Update the Registry (Requirement d) ---
             // We save these so Windows remembers them even if the JSON is moved
             Services.MyAppParamManager.SaveRegistryParameter("IsDarkMode", _user.Preferences.IsDarkMode.ToString());
             Services.MyAppParamManager.SaveRegistryParameter("ShowType", _user.Preferences.ShowType.ToString());
+            Services.MyAppParamManager.SaveRegistryParameter("SearchType", _user.Preferences.SearchType.ToString());
             Services.MyAppParamManager.SaveRegistryParameter("ShowGenre", _user.Preferences.ShowGenre.ToString());
             Services.MyAppParamManager.SaveRegistryParameter("StoragePath", PathTextBox.Text);
 
-
+            
             // --- 3. Close the Modal Window ---
             this.DialogResult = true;
             this.Close();

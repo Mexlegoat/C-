@@ -84,7 +84,7 @@ namespace GestionnaireApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;component/page2.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;V1.0.0.0;component/page2.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Page2.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

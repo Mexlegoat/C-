@@ -41,13 +41,85 @@ namespace GestionnaireApp
             // Important: Set the DataContext so the UI can see the data
 
             this.DataContext = this;
-                        
+            if (user.Preferences.IsDarkMode == true)
+            {
+                App.AppliquerTheme(true);
+            }
+            else
+            {
+                App.AppliquerTheme(false);
+            }
+
 
             // On initialise l'ObservableCollection pour l'UI
             // On passe la liste de l'utilisateur en paramètre
             // (Optional) Load the user's specific lists into your collections
             LoadUserData();
 
+        }
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string filtre = SearchTextBox.Text.ToLower();
+
+            if (string.IsNullOrWhiteSpace(filtre))
+            {
+                // Si la barre est vide, on réaffiche les listes originales
+                ListJeu.ItemsSource = ItemsJeu;
+                ListTravail.ItemsSource = ItemsTravail;
+                ListMm.ItemsSource = ItemsMm;
+                AppDataGrid.ItemsSource = AllItems;
+            }
+            else
+            {
+                // Sinon on filtre chaque liste en utilisant notre fonction avec les "if"
+                ListJeu.ItemsSource = ItemsJeu.Where(a => AppliquerFiltre(a, filtre)).ToList();
+                ListTravail.ItemsSource = ItemsTravail.Where(a => AppliquerFiltre(a, filtre)).ToList();
+                ListMm.ItemsSource = ItemsMm.Where(a => AppliquerFiltre(a, filtre)).ToList();
+                AppDataGrid.ItemsSource = AllItems.Where(a => AppliquerFiltre(a, filtre)).ToList();
+            }
+        }
+
+        private bool AppliquerFiltre(dynamic app, string texte)
+        {
+            // On récupère le choix depuis les préférences de l'utilisateur
+            int choix = CurrentUser.Preferences.SearchType;
+
+            // 0 = Recherche par NOM
+            if (choix == 0)
+            {
+                if (app.Nom != null) return app.Nom.ToLower().Contains(texte);
+                return false;
+            }
+
+            // 1 = Recherche par TYPE
+            if (choix == 1)
+            {
+                if (app.CustomType != null)
+                {
+                    if (app.CustomType.Nom != null) return app.CustomType.Nom.ToLower().Contains(texte);
+                }
+                return false;
+            }
+
+            // 2 = Recherche par GENRE
+            if (choix == 2)
+            {
+                var propertyGenre = app.GetType().GetProperty("Genre");
+                if (propertyGenre != null)
+                {
+                    var valeur = propertyGenre.GetValue(app);
+                    if (valeur != null) return valeur.ToString().ToLower().Contains(texte);
+                }
+
+                var propertyLang = app.GetType().GetProperty("Langage");
+                if (propertyLang != null)
+                {
+                    var valeurLang = propertyLang.GetValue(app);
+                    if (valeurLang != null) return valeurLang.ToString().ToLower().Contains(texte);
+                }
+            }
+
+            return false;
         }
         private void AddTypeToItem_Click(object sender, RoutedEventArgs e)
         {
@@ -355,6 +427,7 @@ namespace GestionnaireApp
             // Note: This requires a static method in your Item class (see below)
             Item.SetNextId(maxId + 1);
         }
+
         private void LaunchApp(object sender, MouseButtonEventArgs e)
         {
             ListBox list = sender as ListBox;
@@ -376,10 +449,6 @@ namespace GestionnaireApp
                             MessageBox.Show($"Erreur, L'application {app.Nom} n'est pas executable!");
                         }
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Erreur, Veuillez d'abord activer le double-clic dans les paramètres!");
                 }
 
             }

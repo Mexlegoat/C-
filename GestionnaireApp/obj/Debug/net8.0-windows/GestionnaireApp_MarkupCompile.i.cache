@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\App.xaml
-9754116469
+11178467028
 
 15-1544600285
 206-2084508846
-CreateGame.xaml;CreateMultimedia.xaml;CreateType.xaml;CreateWork.xaml;LoginUser.xaml;MainWindow.xaml;Page2.xaml;SettingsWindow.xaml;Startup.xaml;
+CreateGame.xaml;CreateMultimedia.xaml;CreateType.xaml;CreateWork.xaml;LoginUser.xaml;MainWindow.xaml;Page2.xaml;SettingsWindow.xaml;Startup.xaml;Thèmes\DarkTheme.xaml;Thèmes\LightTheme.xaml;
 
 True
 

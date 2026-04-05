@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionnaireApp"
         mc:Ignorable="d"
-        Title="SettingsWindow" Height="550" Width="800">
+        Title="SettingsWindow" Height="600" Width="800" Background="{DynamicResource PrimaryBg}"
+        Foreground="{DynamicResource PrimaryText}">
     <Grid>
         <StackPanel Margin="20">
             <TextBlock Text="Thème" FontWeight="Bold" Margin="0,10,0,5"/>
@@ -31,7 +32,15 @@
                     <CheckBox x:Name="CheckShowGenre" VerticalAlignment="Center"/>
                 </StackPanel>
             </Border>
-
+            <TextBlock Text="Recherche:" FontWeight="Bold" Margin="0,10,0,5"/>
+            <Border BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Choix du type de recherche: (par défaut Nom)" VerticalAlignment="Center"/>
+                    <RadioButton x:Name="RadioNom" Content="Nom" Margin="50,0,10,0" IsChecked="True"/>
+                    <RadioButton x:Name="RadioType" Margin="0,0,10,0" Content="Type"/>
+                    <RadioButton x:Name="RadioGenre" Content="Genre"/>
+                </StackPanel>
+            </Border>
             <TextBlock Text="Ouvrir l'emplacement du fichier" FontWeight="Bold" Margin="0,20,0,5"/>
             <Border BorderBrush="Black" BorderThickness="1" Padding="10">
                 <DockPanel>

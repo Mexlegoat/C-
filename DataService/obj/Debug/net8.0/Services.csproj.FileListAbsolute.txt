@@ -8,9 +8,9 @@ C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.Generate
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.AssemblyInfo.cs
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.sourcelink.json
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.csproj.Up2Date
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\refint\Services.dll
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.pdb
 C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\ref\Services.dll
-C:\Users\Issam\Desktop\hepl\B2\C#\DataService\obj\Debug\net8.0\Services.sourcelink.json

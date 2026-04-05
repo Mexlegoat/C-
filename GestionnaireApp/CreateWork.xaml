@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionnaireApp"
         mc:Ignorable="d"
-        Title="Créer une application de travail" Height="450" Width="800" Background="DarkGray">
+        Title="Créer une application de travail" Height="450" Width="800" Background="{DynamicResource PrimaryBg}"
+        Foreground="{DynamicResource PrimaryText}">
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
