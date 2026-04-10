@@ -9,6 +9,51 @@
         <local:IconConverter x:Key="IconConverter"/>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
 
+        <DataTemplate x:Key="AppItemTemplate">
+            <Border x:Name="InnerBox" Padding="8" Background="Transparent" CornerRadius="5" Margin="2">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="32" Height="32" Margin="0,0,10,0" Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="{Binding Nom}" FontWeight="Bold" FontSize="14" Foreground="{DynamicResource PrimaryText}"/>
+
+                            <TextBlock x:Name="TxtGenre" FontSize="10" Foreground="Gray"
+                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Text" Value="{Binding Genre, StringFormat='Genre: {0}'}"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBox}, Path=Name}" Value="ListTravail">
+                                                <Setter Property="Text" Value="{Binding Langage, StringFormat='Langage: {0}'}"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+
+                            <TextBlock Text="{Binding CustomType, StringFormat='Type: {0}'}" FontSize="10" Foreground="Gray"
+                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowType, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="DetailsPanel" Visibility="Collapsed" Margin="0,10,0,0">
+                        <Separator Margin="0,5" Background="#CCC"/>
+                        <DockPanel Margin="5" LastChildFill="False">
+                            <ComboBox x:Name="TypeSelector" ItemsSource="{Binding DataContext.AllTypes, RelativeSource={RelativeSource AncestorType=Window}}" DisplayMemberPath="Nom" Width="100" Margin="0,0,5,0"/>
+                            <Button Content="Modifier" Click="AddTypeToItem_Click" Width="auto" Margin="0,0,5,0"/>
+                            <Button Content="-" Click="Supprimer_Item" DockPanel.Dock="Right" Background="#FF4444" Foreground="White" FontWeight="Bold" Width="25"/>
+                        </DockPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
+                    <Setter TargetName="DetailsPanel" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="InnerBox" Property="Background" Value="#F0F0F0"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+
         <Style TargetType="ListBoxItem">
             <Setter Property="Template">
                 <Setter.Value>
@@ -34,149 +79,50 @@
         <Grid Grid.Row="1" Margin="10,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0">
+            <Grid Grid.Column="0" Margin="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Text="Jeux" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox Grid.Row="1" x:Name="ListJeu" ItemsSource="{Binding ItemsJeu}" BorderThickness="0" Background="Transparent" 
-                         MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <Border x:Name="InnerBox" Padding="8" Background="Transparent" CornerRadius="5" Margin="2">
-                                <StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Image Width="32" Height="32" Margin="0,0,10,0" Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding Nom}" FontWeight="Bold" FontSize="14"/>
-                                            <TextBlock Text="{Binding Genre, StringFormat='Genre: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                            <TextBlock Text="{Binding CustomType, StringFormat='Type: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowType, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                        </StackPanel>
-                                    </StackPanel>
-                                    <StackPanel x:Name="DetailsPanel" Visibility="Collapsed" Margin="0,10,0,0">
-                                        <Separator Margin="0,5" Background="#CCC"/>
-                                        <DockPanel Margin="5" LastChildFill="False">
-                                            <ComboBox x:Name="TypeSelector" ItemsSource="{Binding DataContext.AllTypes, RelativeSource={RelativeSource AncestorType=Window}}" DisplayMemberPath="Nom" Width="100" Margin="0,0,5,0"/>
-                                            <Button Content="Modifier" Click="AddTypeToItem_Click" Width="auto" Margin="0,0,5,0"/>
-                                            <Button Content="-" Click="Supprimer_Item" DockPanel.Dock="Right" Background="#FF4444" Foreground="White" FontWeight="Bold" Width="25"/>
-                                        </DockPanel>
-                                    </StackPanel>
-                                </StackPanel>
-                            </Border>
-                            <DataTemplate.Triggers>
-                                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
-                                    <Setter TargetName="DetailsPanel" Property="Visibility" Value="Visible"/>
-                                    <Setter TargetName="InnerBox" Property="Background" Value="#F0F0F0"/>
-                                </DataTrigger>
-                            </DataTemplate.Triggers>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerJeu" Margin="5"/>
+                <TextBlock Text="Jeux" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center" Foreground="{DynamicResource PrimaryText}"/>
+                <Border Grid.Row="1" BorderBrush="#CCC" BorderThickness="1" CornerRadius="5">
+                    <ListBox x:Name="ListJeu" ItemsSource="{Binding ItemsJeu}" ItemTemplate="{StaticResource AppItemTemplate}"
+                             BorderThickness="0" Background="Transparent" MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                </Border>
+                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerJeu" Margin="0,5,0,5"/>
             </Grid>
 
-            <Rectangle Grid.Column="1" Width="1" Fill="LightGray" Margin="5"/>
-
-            <Grid Grid.Column="2">
+            <Grid Grid.Column="1" Margin="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Text="Travail" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox Grid.Row="1" x:Name="ListTravail" ItemsSource="{Binding ItemsTravail}" BorderThickness="0" Background="Transparent" 
-                         MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <Border x:Name="InnerBox" Padding="8" Background="Transparent" CornerRadius="5" Margin="2">
-                                <StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Image Width="32" Height="32" Margin="0,0,10,0" Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding Nom}" FontWeight="Bold" FontSize="14"/>
-                                            <TextBlock Text="{Binding Langage, StringFormat='Langage: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                            <TextBlock Text="{Binding CustomType, StringFormat='Type: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowType, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                        </StackPanel>
-                                    </StackPanel>
-                                    <StackPanel x:Name="DetailsPanel" Visibility="Collapsed" Margin="0,10,0,0">
-                                        <Separator Margin="0,5" Background="#CCC"/>
-                                        <DockPanel Margin="5" LastChildFill="False">
-                                            <ComboBox x:Name="TypeSelector" ItemsSource="{Binding DataContext.AllTypes, RelativeSource={RelativeSource AncestorType=Window}}" DisplayMemberPath="Nom" Width="100" Margin="0,0,5,0"/>
-                                            <Button Content="Modifier" Click="AddTypeToItem_Click" Width="auto" Margin="0,0,5,0"/>
-                                            <Button Content="-" Click="Supprimer_Item" DockPanel.Dock="Right" Background="#FF4444" Foreground="White" FontWeight="Bold" Width="25"/>
-                                        </DockPanel>
-                                    </StackPanel>
-                                </StackPanel>
-                            </Border>
-                            <DataTemplate.Triggers>
-                                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
-                                    <Setter TargetName="DetailsPanel" Property="Visibility" Value="Visible"/>
-                                    <Setter TargetName="InnerBox" Property="Background" Value="#F0F0F0"/>
-                                </DataTrigger>
-                            </DataTemplate.Triggers>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerTravail" Margin="5"/>
+                <TextBlock Text="Travail" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center" Foreground="{DynamicResource PrimaryText}"/>
+                <Border Grid.Row="1" BorderBrush="#CCC" BorderThickness="1" CornerRadius="5">
+                    <ListBox x:Name="ListTravail" ItemsSource="{Binding ItemsTravail}" ItemTemplate="{StaticResource AppItemTemplate}"
+                             BorderThickness="0" Background="Transparent" MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                </Border>
+                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerTravail" Margin="0,5,0,5"/>
             </Grid>
 
-            <Rectangle Grid.Column="3" Width="1" Fill="LightGray" Margin="5"/>
-
-            <Grid Grid.Column="4">
+            <Grid Grid.Column="2" Margin="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Text="Multimédia" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center"/>
-                <ListBox Grid.Row="1" x:Name="ListMm" ItemsSource="{Binding ItemsMm}" BorderThickness="0" Background="Transparent" 
-                         MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <Border x:Name="InnerBox" Padding="8" Background="Transparent" CornerRadius="5" Margin="2">
-                                <StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Image Width="32" Height="32" Margin="0,0,10,0" Source="{Binding IconPath, Converter={StaticResource IconConverter}}"/>
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding Nom}" FontWeight="Bold" FontSize="14"/>
-                                            <TextBlock Text="{Binding Genre, StringFormat='Genre: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowGenre, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                            <TextBlock Text="{Binding CustomType, StringFormat='Type: {0}'}" FontSize="10" Foreground="Gray"
-                                                       Visibility="{Binding DataContext.CurrentUser.Preferences.ShowType, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                                        </StackPanel>
-                                    </StackPanel>
-                                    <StackPanel x:Name="DetailsPanel" Visibility="Collapsed" Margin="0,10,0,0">
-                                        <Separator Margin="0,5" Background="#CCC"/>
-                                        <DockPanel Margin="5" LastChildFill="False">
-                                            <ComboBox x:Name="TypeSelector" ItemsSource="{Binding DataContext.AllTypes, RelativeSource={RelativeSource AncestorType=Window}}" DisplayMemberPath="Nom" Width="100" Margin="0,0,5,0"/>
-                                            <Button Content="Modifier" Click="AddTypeToItem_Click" Width="auto" Margin="0,0,5,0"/>
-                                            <Button Content="-" Click="Supprimer_Item" DockPanel.Dock="Right" Background="#FF4444" Foreground="White" FontWeight="Bold" Width="25"/>
-                                        </DockPanel>
-                                    </StackPanel>
-                                </StackPanel>
-                            </Border>
-                            <DataTemplate.Triggers>
-                                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
-                                    <Setter TargetName="DetailsPanel" Property="Visibility" Value="Visible"/>
-                                    <Setter TargetName="InnerBox" Property="Background" Value="#F0F0F0"/>
-                                </DataTrigger>
-                            </DataTemplate.Triggers>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerMm" Margin="5"/>
+                <TextBlock Text="Multimédia" FontWeight="Bold" FontSize="14" Margin="5" HorizontalAlignment="Center" Foreground="{DynamicResource PrimaryText}"/>
+                <Border Grid.Row="1" BorderBrush="#CCC" BorderThickness="1" CornerRadius="5">
+                    <ListBox x:Name="ListMm" ItemsSource="{Binding ItemsMm}" ItemTemplate="{StaticResource AppItemTemplate}"
+                             BorderThickness="0" Background="Transparent" MouseDoubleClick="LaunchApp" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                </Border>
+                <Button Grid.Row="2" Content="+" Width="30" Height="30" HorizontalAlignment="Right" Click="CreerMm" Margin="0,5,0,5"/>
             </Grid>
         </Grid>
 
@@ -185,15 +131,17 @@
             <Button Content="+ Type" Width="60" Height="30" Margin="10,0" HorizontalAlignment="Right" Click="Ajouter_Type"/>
         </Grid>
 
-        <DataGrid x:Name="AppDataGrid" Grid.Row="3" Margin="10" ItemsSource="{Binding AllItems}" AutoGenerateColumns="False" 
-                  IsReadOnly="True" Background="White" ScrollViewer.VerticalScrollBarVisibility="Auto">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="40"/>
-                <DataGridTextColumn Header="Nom" Binding="{Binding Nom}" Width="*"/>
-                <DataGridTextColumn Header="Date Ajout" Binding="{Binding DateAjoute, StringFormat=\{0:dd/MM/yyyy HH:mm\}}" Width="130" />
-                <DataGridTextColumn Header="Type Perso" Binding="{Binding CustomType.Nom}" Width="100"/>
-                <DataGridTextColumn Header="Chemin" Binding="{Binding Chemin}" Width="2*"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Border Grid.Row="3" Margin="10" BorderBrush="#CCC" BorderThickness="1" CornerRadius="5">
+            <DataGrid x:Name="AppDataGrid" ItemsSource="{Binding AllItems}" AutoGenerateColumns="False" 
+                      IsReadOnly="True" Background="White" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="40"/>
+                    <DataGridTextColumn Header="Nom" Binding="{Binding Nom}" Width="*"/>
+                    <DataGridTextColumn Header="Date Ajout" Binding="{Binding DateAjoute, StringFormat=\{0:dd/MM/yyyy HH:mm\}}" Width="130" />
+                    <DataGridTextColumn Header="Type Perso" Binding="{Binding CustomType.Nom}" Width="100"/>
+                    <DataGridTextColumn Header="Chemin" Binding="{Binding Chemin}" Width="2*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
     </Grid>
 </Window>

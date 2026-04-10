@@ -52,3 +52,4 @@ C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\refin
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\GestionnaireApp.pdb
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\GestionnaireApp.genruntimeconfig.cache
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\ref\GestionnaireApp.dll
+C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\obj\Debug\net8.0-windows\App.baml

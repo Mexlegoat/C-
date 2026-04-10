@@ -5,25 +5,74 @@
     "Categories": [
       {
         "Nom": "Jeux",
-        "Items": []
+        "Items": [
+          {
+            "$type": "jeu",
+            "Genre": "test",
+            "Id": 1,
+            "Nom": "test",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-10T02:59:47.8144827+02:00",
+            "CustomType": {
+              "Nom": "type"
+            }
+          },
+          {
+            "$type": "jeu",
+            "Genre": "test",
+            "Id": 2,
+            "Nom": "test",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-10T03:07:21.3767313+02:00"
+          }
+        ]
       },
       {
         "Nom": "Travail",
-        "Items": []
+        "Items": [
+          {
+            "$type": "travail",
+            "Langage": "html, css, js, sql",
+            "Id": 3,
+            "Nom": "Visual Studio Code",
+            "Chemin": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
+            "IconPath": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
+            "DateAjoute": "2026-04-10T03:16:22.3937056+02:00",
+            "CustomType": {
+              "Nom": "type"
+            }
+          }
+        ]
       },
       {
         "Nom": "Multimedia",
-        "Items": []
+        "Items": [
+          {
+            "$type": "multimedia",
+            "Genre": "test",
+            "Id": 5,
+            "Nom": "test",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-10T03:21:36.9760482+02:00"
+          }
+        ]
       }
     ],
-    "UserCreatedTypes": [],
+    "UserCreatedTypes": [
+      {
+        "Nom": "type"
+      }
+    ],
     "Preferences": {
-      "IsDarkMode": true,
-      "ShowType": false,
-      "ShowGenre": false,
-      "DoubleClickToExecute": true,
+      "IsDarkMode": false,
+      "ShowType": true,
+      "ShowGenre": true,
+      "DoubleClickToExecute": false,
       "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\",
-      "SearchType": 0
+      "SearchType": 2
     }
   }
 ]
