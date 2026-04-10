@@ -76,7 +76,7 @@ namespace GestionnaireApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;V1.0.0.0;component/loginuser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;component/loginuser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LoginUser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -11,6 +11,7 @@ namespace UserClass
         public List<Categorie> Categories { get; set; } = new List<Categorie>();
         public List<TypeClass> UserCreatedTypes { get; set; } = new List<TypeClass>();
         public UserSettings Preferences { get; set; } = new UserSettings();
+        
     }
     public class UserSettings
     {

@@ -5,7 +5,7 @@ using Modeles;
 using Services;
 using UserClass;
 
-namespace Services 
+namespace Services
 {
     public class UserService
     {
@@ -28,10 +28,34 @@ namespace Services
             }
         }
 
+        private string Crypt(string password)
+        {
+            if (string.IsNullOrEmpty(password)) return password;
+            char[] buffer = password.ToCharArray();
+            for (int i = 0; i < buffer.Length; i++)
+            {
+                buffer[i] = (char)(buffer[i] + 5);
+            }
+            return new string(buffer);
+        }
+
+        private string Decrypt(string password)
+        {
+            if (string.IsNullOrEmpty(password)) return password;
+            char[] buffer = password.ToCharArray();
+            for (int i = 0; i < buffer.Length; i++)
+            {
+                buffer[i] = (char)(buffer[i] - 5);
+            }
+            return new string(buffer);
+        }
+
         public bool Login(string username, string password)
         {
+            string passwordCrypte = Crypt(password);
+
             var user = _users.FirstOrDefault(u =>
-                u.Username == username && u.Password == password);
+                u.Username == username && u.Password == passwordCrypte);
 
             if (user != null)
             {
@@ -49,13 +73,14 @@ namespace Services
                 return false;
             }
 
+            string passwordCrypte = Crypt(password);
+
             var newUser = new User
             {
                 Username = username,
-                Password = password,
-
+                Password = passwordCrypte,
                 Categories = new List<CategoryClass.Categorie>(),
-                UserCreatedTypes = new List<TypeClass>() 
+                UserCreatedTypes = new List<TypeClass>()
             };
 
             _users.Add(newUser);
@@ -66,7 +91,6 @@ namespace Services
 
         public void Save()
         {
-            
             DataService.Save(FilePath, _users);
         }
     }
