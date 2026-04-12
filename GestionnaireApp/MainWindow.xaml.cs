@@ -242,6 +242,11 @@ namespace GestionnaireApp
                 AllTypes.Add(newType);
                 if (CurrentUser.UserCreatedTypes == null)
                     CurrentUser.UserCreatedTypes = new List<TypeClass>();
+                else if (CurrentUser.UserCreatedTypes.Any(t => t.Nom == newTypeName))
+                {
+                    MessageBox.Show("Un type avec ce nom existe déjà !");
+                    return;
+                }
                 CurrentUser.UserCreatedTypes.Add(newType);
                 _userService.Save();
                 System.Windows.MessageBox.Show($"Type '{newTypeName}' ajouté avec succès !");

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="CreateType.xaml.cs">
+    <Compile Update="Creation\CreateType.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

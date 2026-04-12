@@ -26,6 +26,15 @@
             "Chemin": "",
             "IconPath": "",
             "DateAjoute": "2026-04-10T03:07:21.3767313+02:00"
+          },
+          {
+            "$type": "jeu",
+            "Genre": "test",
+            "Id": 6,
+            "Nom": "testtt",
+            "Chemin": "",
+            "IconPath": "",
+            "DateAjoute": "2026-04-12T23:35:26.1100836+02:00"
           }
         ]
       },
@@ -39,10 +48,7 @@
             "Nom": "Visual Studio Code",
             "Chemin": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
             "IconPath": "C:\\Users\\Issam\\Desktop\\Visual Studio Code.lnk",
-            "DateAjoute": "2026-04-10T03:16:22.3937056+02:00",
-            "CustomType": {
-              "Nom": "type"
-            }
+            "DateAjoute": "2026-04-10T03:16:22.3937056+02:00"
           }
         ]
       },
@@ -64,15 +70,45 @@
     "UserCreatedTypes": [
       {
         "Nom": "type"
+      },
+      {
+        "Nom": "Fun"
       }
     ],
     "Preferences": {
-      "IsDarkMode": false,
+      "IsDarkMode": true,
       "ShowType": true,
       "ShowGenre": true,
       "DoubleClickToExecute": false,
       "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\",
       "SearchType": 2
+    }
+  },
+  {
+    "Username": "Issam",
+    "Password": "NXXFR678",
+    "Categories": [
+      {
+        "Nom": "Jeux",
+        "Items": []
+      },
+      {
+        "Nom": "Travail",
+        "Items": []
+      },
+      {
+        "Nom": "Multimedia",
+        "Items": []
+      }
+    ],
+    "UserCreatedTypes": [],
+    "Preferences": {
+      "IsDarkMode": true,
+      "ShowType": false,
+      "ShowGenre": false,
+      "DoubleClickToExecute": true,
+      "DefaultBrowsePath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\",
+      "SearchType": 0
     }
   }
 ]

@@ -2,22 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="CreateGame.xaml.cs">
+    <Compile Update="Creation\CreateGame.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CreateMultimedia.xaml.cs">
+    <Compile Update="Creation\CreateMultimedia.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CreateWork.xaml.cs">
+    <Compile Update="Creation\CreateWork.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LoginUser.xaml.cs">
+    <Compile Update="UserLogin\LoginUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page2.xaml.cs">
+    <Compile Update="UserLogin\Page2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="SettingsWindow.xaml.cs">
+    <Compile Update="Settings\SettingsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Startup.xaml.cs">

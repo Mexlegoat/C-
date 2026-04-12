@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Issam\Desktop\hepl\B2\C#\GestionnaireApp\App.xaml
-11178467028
+11-1335435004
 
-131940171945
+131427744088
 206-2084508846
-CreateGame.xaml;CreateMultimedia.xaml;CreateType.xaml;CreateWork.xaml;LoginUser.xaml;MainWindow.xaml;Page2.xaml;SettingsWindow.xaml;Startup.xaml;Thèmes\DarkTheme.xaml;Thèmes\LightTheme.xaml;
+Creation\CreateGame.xaml;Creation\CreateMultimedia.xaml;Creation\CreateType.xaml;Creation\CreateWork.xaml;MainWindow.xaml;Settings\SettingsWindow.xaml;Startup.xaml;Thèmes\DarkTheme.xaml;Thèmes\LightTheme.xaml;UserLogin\LoginUser.xaml;UserLogin\Page2.xaml;
 
 False
 

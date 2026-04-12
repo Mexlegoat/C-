@@ -16,7 +16,7 @@ namespace Services
 
         public UserService()
         {
-            List<User> loadedUsers = DataService.Load<List<User>>("users.json");
+            List<User> loadedUsers = DataService.Load<List<User>>(FilePath);
 
             if (loadedUsers != null)
             {
