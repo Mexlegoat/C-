@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|Inutile.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\inutile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|Inutile.csproj|solutionrelative:inutile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\projetapplicationc#\\projetapplicationc#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4DDA4BCA-A46A-4E12-B152-1659346A7449}|ProjetApplicationC#.csproj|solutionrelative:projetapplicationc#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEC22116-1812-42FB-B326-899BFA349B1C}|..\\ItemClass\\Modeles.csproj|c:\\users\\issam\\desktop\\hepl\\b2\\c#\\itemclass\\userclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -130,21 +130,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore.txt",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\.gitignore.txt",
-              "RelativeDocumentMoniker": ".gitignore.txt",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\.gitignore.txt",
-              "RelativeToolTip": ".gitignore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-12T21:55:12.249Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -159,39 +146,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "users.json",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
-              "RelativeDocumentMoniker": "..\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
-              "RelativeToolTip": "..\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-12T21:57:05.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\DataService\\UserService.cs",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
-              "RelativeToolTip": "..\\DataService\\UserService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowFAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:27:50.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T04:02:45.485Z",
               "EditorCaption": ""
@@ -206,7 +167,44 @@
               "RelativeToolTip": "..\\GestionnaireApp\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAYBAAAAAAAAAAAAwN4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:03:14.601Z",
+              "WhenOpened": "2026-03-28T04:03:14.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjetApplicationC#.csproj",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Inutile.csproj",
+              "RelativeDocumentMoniker": "Inutile.csproj",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Inutile.csproj",
+              "RelativeToolTip": "Inutile.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T21:00:41.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\DataService\\UserService.cs",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\DataService\\UserService.cs",
+              "RelativeToolTip": "..\\DataService\\UserService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:27:50.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore.txt",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\.gitignore.txt",
+              "RelativeDocumentMoniker": ".gitignore.txt",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\.gitignore.txt",
+              "RelativeToolTip": ".gitignore.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-12T21:55:12.249Z",
               "EditorCaption": ""
             },
             {
@@ -218,8 +216,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Creation\\CreateWork.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateWork.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T16:53:03.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T16:53:03.688Z"
             },
             {
               "$type": "Document",
@@ -231,8 +228,7 @@
               "RelativeToolTip": "..\\ItemClass\\TypeClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:12:37.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T18:12:37.239Z"
             },
             {
               "$type": "Document",
@@ -244,21 +240,19 @@
               "RelativeToolTip": "..\\ItemClass\\UserClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:28:49.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T04:28:49.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjetApplicationC#.csproj",
-              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\ProjetApplicationC#.csproj",
-              "RelativeDocumentMoniker": "ProjetApplicationC#.csproj",
-              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\ProjetApplicationC#.csproj",
-              "RelativeToolTip": "ProjetApplicationC#.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T21:00:41.184Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
+              "RelativeDocumentMoniker": "..\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
+              "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
+              "RelativeToolTip": "..\\GestionnaireApp\\bin\\Debug\\net8.0-windows\\users.json",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-12T21:57:05.371Z"
             },
             {
               "$type": "Document",
@@ -270,8 +264,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateType.xaml.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAuwCoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:53:00.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T18:53:00.887Z"
             },
             {
               "$type": "Document",
@@ -283,8 +276,7 @@
               "RelativeToolTip": "..\\DataService\\DataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:23:09.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T04:23:09.107Z"
             },
             {
               "$type": "Document",
@@ -296,8 +288,7 @@
               "RelativeToolTip": "..\\DataService\\MyAppParamManager.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:44:36.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:44:36.395Z"
             },
             {
               "$type": "Document",
@@ -308,8 +299,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\UserLogin\\Page2.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\UserLogin\\Page2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T19:45:51.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T19:45:51.073Z"
             },
             {
               "$type": "Document",
@@ -321,8 +311,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\UserLogin\\Page2.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:47:36.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T19:47:36.887Z"
             },
             {
               "$type": "Document",
@@ -334,8 +323,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateMultimedia.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:25:56.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T17:25:56.355Z"
             },
             {
               "$type": "Document",
@@ -346,8 +334,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Creation\\CreateType.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateType.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T18:53:36.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T18:53:36.006Z"
             },
             {
               "$type": "Document",
@@ -358,8 +345,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\MainWindow.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T18:32:38.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T18:32:38.177Z"
             },
             {
               "$type": "Document",
@@ -371,8 +357,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:00:28.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:00:28.852Z"
             },
             {
               "$type": "Document",
@@ -384,8 +369,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T04:56:04.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T04:56:04.949Z"
             },
             {
               "$type": "Document",
@@ -396,8 +380,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Startup.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Startup.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T20:00:03.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:00:03.73Z"
             },
             {
               "$type": "Document",
@@ -409,8 +392,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\UserLogin\\LoginUser.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:34:04.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T21:34:04.076Z"
             },
             {
               "$type": "Document",
@@ -421,8 +403,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Settings\\SettingsWindow.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Settings\\SettingsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T20:10:52.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:10:52.268Z"
             },
             {
               "$type": "Document",
@@ -434,8 +415,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:04:41.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:04:41.952Z"
             },
             {
               "$type": "Document",
@@ -446,8 +426,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\UserLogin\\LoginUser.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\UserLogin\\LoginUser.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T05:01:39.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T05:01:39.764Z"
             },
             {
               "$type": "Document",
@@ -470,8 +449,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\App.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T21:01:05.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T21:01:05.063Z"
             },
             {
               "$type": "Document",
@@ -495,8 +473,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateGame.xaml.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAwwDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:10:59.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T17:10:59.946Z"
             },
             {
               "$type": "Document",
@@ -508,8 +485,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateWork.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:22:48.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T17:22:48.304Z"
             },
             {
               "$type": "Document",
@@ -521,8 +497,7 @@
               "RelativeToolTip": "..\\GestionnaireApp\\Settings\\SettingsWindow.xaml.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAwI8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:16:17.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T20:16:17.717Z"
             },
             {
               "$type": "Document",
@@ -567,8 +542,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Creation\\CreateMultimedia.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateMultimedia.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T16:56:55.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T16:56:55.784Z"
             },
             {
               "$type": "Document",
@@ -617,8 +591,7 @@
               "ToolTip": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\GestionnaireApp\\Creation\\CreateGame.xaml",
               "RelativeToolTip": "..\\GestionnaireApp\\Creation\\CreateGame.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T05:02:09.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T05:02:09.572Z"
             },
             {
               "$type": "Document",

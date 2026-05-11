@@ -109,7 +109,7 @@ namespace GestionnaireApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;component/creation/creategame.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestionnaireApp;V1.0.0.0;component/creation/creategame.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Creation\CreateGame.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

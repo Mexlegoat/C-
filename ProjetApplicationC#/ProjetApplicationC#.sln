@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetApplicationC#", "ProjetApplicationC#.csproj", "{4DDA4BCA-A46A-4E12-B152-1659346A7449}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inutile", "Inutile.csproj", "{4DDA4BCA-A46A-4E12-B152-1659346A7449}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionnaireApp", "..\GestionnaireApp\GestionnaireApp.csproj", "{A4CA92F0-1C14-489B-B723-2E799FE1B659}"
 EndProject

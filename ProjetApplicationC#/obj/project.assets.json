@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\ProjetApplicationC#.csproj",
-      "projectName": "ProjetApplicationC#",
-      "projectPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\ProjetApplicationC#.csproj",
+      "projectUniqueName": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Inutile.csproj",
+      "projectName": "Inutile",
+      "projectPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\Inutile.csproj",
       "packagesPath": "C:\\Users\\Issam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Issam\\Desktop\\hepl\\B2\\C#\\ProjetApplicationC#\\obj\\",
       "projectStyle": "PackageReference",
